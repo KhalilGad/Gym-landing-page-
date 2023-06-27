@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kh GYM</title>
+    <link rel="stylesheet" href="css/normalizi.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="js/all.min.js">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    <link rel="icon" href="img/logo.webp">
+</head>
+
+<body>
+    <!-- start setting box -->
+    <div class="setting-box">
+        <div class="toggle-setting">
+            <i class="fa-solid fa-gear gearbox"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="color-list">
+                    <li class="active" data-color="orange"></li>
+                    <li data-color="red"></li>
+                    <li data-color="green"></li>
+                    <li data-color="yellowgreen"></li>
+                    <li data-color="blue"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>
+                    Random Background
+                </h4>
+                <div class="random-background">
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>
+                   Show Bullets
+                </h4>
+                <div class="bulletsOption">
+                    <span class="yes active" data-display="show">Show</span>
+                    <span class="no" data-display="hide">Hide</span>
+                </div>
+            </div>
+            <button class="restOption">Rest Option</button>
+        </div>
+    </div>
+    <!-- end setting box -->
+    <!-- start nav bullets -->
+    <div class="navBullets">
+        <div class="bullet" data-section=".landing-area">
+            <div class="toolTip">
+                Home
+            </div>
+        </div>
+        <div class="bullet" data-section=".aboutUs">
+            <div class="toolTip">
+                About Us
+            </div>
+        </div>
+        <div class="bullet" data-section=".skills">
+           <div class="toolTip">
+            Our Skills
+           </div>
+        </div>
+        <div class="bullet"data-section=".gallery">
+           <div class="toolTip">
+            Our Gallery
+           </div>
+        </div>
+        <div class="bullet"data-section=".timeline">
+            <div class="toolTip">
+                Timeline
+            </div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="toolTip">
+              Our Classes
+            </div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="toolTip">
+                Testimonials
+            </div>
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="toolTip">
+                Contact Us
+            </div>
+        </div>
+    </div>
+    <!-- end nav bullets -->
+    <!-- start landing page -->
+    <div class="landing-area">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header">
+                <div class="logo">GY<SPan>M</SPan></div>
+                <div class="linksContainer">
+                    <ul class="links">
+                        <li><a class="" href="#" data-section=".aboutUs">About</a></li>
+                        <li><a href="#" data-section=".skills">Skills</a></li>
+                        <li><a href="#" data-section=".gallery">Gallery</a></li>
+                        <li><a href="#" data-section=".timeline">Timeline</a></li>
+                        <li><a href="#" data-section=".features">Classes</a></li>
+                        <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                        <li><a href="#" data-section=".contact">Contact Us</a></li>
+                    </ul>
+                    <button class="toggleMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="textContent">
+            <h1>
+                BE <span>STRONG</span>
+                TRAINING HARD
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, reiciendis! ipsum dolor sit amet
+                consectetur
+            </p>
+        </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start about us -->
+    <div class="container">
+        <div class="aboutUs">
+            <div class="infoBox">
+                <h2>
+                    About Us
+                </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in incidunt amet rem expedita. Itaque
+                    hic rem
+                    dicta unde sapiente rerum dolorem debitis saepe pariatur. Dignissimos facere odio atque sunt?</p>
+            </div>
+            <div class="imgBox">
+                <img src="img/about us.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+    <!-- start skills -->
+    <div class="skills">
+        <div class="container">
+            <h2>Our Plan</h2>
+            <div class="skillBox">
+                <div class="skillName">
+                    Class drop-in
+                </div>
+                <div class="skillProgress">
+                    <span data-progress="50%"></span>
+                </div>
+            </div>
+            <div class="skillBox">
+                <div class="skillName">
+                    6 Month unlimited
+                </div>
+                <div class="skillProgress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skillBox">
+                <div class="skillName">
+                    12 Month unlimited
+                </div>
+                <div class="skillProgress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end skills -->
+    <!-- start Our gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="imagBox">
+                <img src="img/1.jpg" alt="Cardio">
+                <img src="img/2.jpg" alt="Strong">
+                <img src="img/3.jpg" alt="Body Building">
+                <img src="img/4.jpg" alt="Weight lifting">
+                <img src="img/5.jpg" alt="Running">
+            </div>
+        </div>
+    </div>
+    <!-- end Our gallery -->
+    <!-- start time line -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timelineContent">
+                <div class="year">2020</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Alex Branch</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellendus magnam.
+                            Assumenda, est aliquam corrupti atque neque excepturi alias! Tempore perspiciatis dolorem
+                            magnam id blanditiis magni deleniti nulla ipsum facilis?
+                        </p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Cairo Branch</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, repellendus magnam.
+                            Assumenda, est aliquam corrupti atque neque excepturi alias! Tempore perspiciatis dolorem
+                            magnam id blanditiis magni deleniti nulla ipsum facilis?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start time line -->
+    <!-- start features -->
+    <div class="features">
+        <h2>Our Classes</h2>
+        <div class="container">
+            <div class="featBox">
+                <img src="img/gym1.jpg" alt="">
+                <h4>Body Building</h4>
+                <p>Lorem ipsum dolor sit ametipsum dolor sit amet</p>
+            </div>
+            <div class="featBox">
+                <img src="img/gym2.jpg" alt="">
+                <h4>Boxing</h4>
+                <p>Lorem ipsum dolor sit ametipsum dolor sit amet</p>
+            </div>
+            <div class="featBox">
+                <img src="img/gym3.webp" alt="">
+                <h4>Cross Fit</h4>
+                <p>Lorem ipsum dolor sit ametipsum dolor sit amet</p>
+            </div>
+            <div class="featBox">
+                <img src="img/gym4.jpeg" alt="">
+                <h4>Fitness Workout</h4>
+                <p>Lorem ipsum dolor sit ametipsum dolor sit amet</p>
+            </div>
+            <div class="featBox">
+                <img src="img/gym5.jpeg" alt="">
+                <h4>Yoga</h4>
+                <p>Lorem ipsum dolor sit ametipsum dolor sit amet</p>
+            </div>
+            <div class="featBox">
+                <img src="img/gym6.jpeg" alt="">
+                <h4>Gym Work Out</h4>
+                <p>Lorem ipsum dolor sit ametipsum dolor sit amet</p>
+            </div>
+            <div class="clearFix"></div>
+        </div>
+    </div>
+    <!-- end features -->
+    <!-- start testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>testimonials</h2>
+            <div class="tsBox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, eligendi.</p>
+                <div class="personInfo">
+                    <img src="img/person_2.jpg" alt="">
+                    <h4>Khalil Gad</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+            <div class="tsBox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, eligendi.</p>
+                <div class="personInfo">
+                    <img src="img/person_1.jpg" alt="">
+                    <h4>Khalil Gad</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+            <div class="tsBox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, eligendi.</p>
+                <div class="personInfo">
+                    <img src="img/person_3.jpg" alt="">
+                    <h4>Khalil Gad</h4>
+                    <p>CEO At Company</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearFix"></div>
+    </div>
+    <!-- end testimonials -->
+    <!-- Start Contact Us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input placeholder="Your Name" type="text" name="user name">
+                    <input placeholder="Your Phone" type="number" name="phone">
+                    <input placeholder="Your Email" type="email" name="email">
+                    <input placeholder="Subject" type="text" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message" ></textarea>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end Contact Us -->
+    <!-- footer -->
+    <div class="footer">
+        &copy; Copy Right By <span>Khalil Gad </span> 2023
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
